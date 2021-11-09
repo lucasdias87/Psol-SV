@@ -1,6 +1,6 @@
 # Psol-SV
 ## Site do diretorio municipal de São Vicente-SP 
-
+[![GitHub issues](https://img.shields.io/github/issues/lucasdias87/Psol-SV?style=for-the-badge)](https://github.com/lucasdias87/Psol-SV/issues)
 
 ### [Acesse a pagina](https://psol-sv.netlify.app)
 
