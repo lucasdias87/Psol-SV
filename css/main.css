@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
+
+@font-face {
+    font-family: ADLIBN,Lato,Roboto;
+    src: url(/ADLIBN/ADLIBN.TTF);
+ }
+html{
+    background-color: #ffa800;
+}
+ a:hover {
+    background-color: #f2e7c8;
+  }
+
+.menu {
+    font-family: Lato,ADLIBN;
+    font-size:1.125rem;
+    text-align:center ;
+    color: #ffa800;
+    background-color:#4c0068;
+    
+}
+
+.iconesr{
+    text-align:center ;
+    color: #ffa800;
+}
+ 
+.fundo {
+    background-color: #f2e7c8;
+    
+
+}
+.fundo-roo{
+    background-color:#4c0068;
+}
+
+
+.img{
+    width:35%;
+   
+   
+}
+h1{
+    font-family: Roboto,ADLIBN;
+    font-size: medium;
+    color: white;
+    text-align: center;
+    
+    padding-top: 20%;
+
+}
+h2{
+    font-family: Roboto,ADLIBN;
+    font-size:small;
+    color: #4c0068;
+}
+
+h3{
+    font-family: Roboto,ADLIBN;
+    font-size: medium;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+
+
+.myDiv {
+    
+    background-color:#ffa800;
+    text-align: left;
+    background: url("/img/bg-header-psol-sv.jpg")no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+
+ .center {
+  
+    text-align:center ;
+  
+  }
+  /*=====  End of Tipywriter effect  ======*/
+/*=============================================
+=            Scrollbar Styles            =
+=============================================*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Background */
+  ::-webkit-scrollbar-track {
+    background-color: #f2e7c8;
+  }
+  
+  /* Scroll bar handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ffa800;
+    background: linear-gradient(170deg, #4c0068 0%, #ffa800 73%, #f2e7c8 100%);
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  /*=====  End of Scrollbar Styles  ======*/
