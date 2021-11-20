@@ -13,14 +13,14 @@ html{
     background-color: #f2e7c8;
 
   }
- 
+  
 
 .menu {
     font-family: Lato,ADLIBN;
     font-size:1.125rem;
     text-align:center ;
     padding-top: 0%;
-    color: #ffa800;
+    color: #f2e7c8;
     background-color: transparent;
     
     transition-property: background-color,border-radius;;
@@ -35,12 +35,14 @@ html{
 }
  
 .fundo {
-    background-color: #f2e7c8;
+    background-color:#f2e7c8;
     
 
 }
 .fundo-roo{
-    background-color:#4c0068;
+    background-color: #4c0068;
+   
+
 }
 
 
