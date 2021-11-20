@@ -8,16 +8,24 @@
 html{
     background-color: #ffa800;
 }
+
  a:hover {
     background-color: #f2e7c8;
+
   }
+ 
 
 .menu {
     font-family: Lato,ADLIBN;
     font-size:1.125rem;
     text-align:center ;
+    padding-top: 0%;
     color: #ffa800;
-    background-color:#4c0068;
+    background-color: transparent;
+    
+    transition-property: background-color,border-radius;;
+    transition-duration: 1.5s;
+   
     
 }
 
@@ -39,8 +47,11 @@ html{
 .img{
     width:35%;
    
-   
+
+    
 }
+
+
 h1{
     font-family: Roboto,ADLIBN;
     font-size: medium;
@@ -67,7 +78,7 @@ h3{
 
 
 
-.myDiv {
+body{
     
     background-color:#ffa800;
     text-align: left;
