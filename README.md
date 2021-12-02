@@ -9,5 +9,5 @@
 - Buscando ser responsivo para se adaptar a demais dispositivos
 <br>
 
-![alt text](https://github.com/lucasdias87/Psol-SV/blob/main/psol.gif)
+
 
