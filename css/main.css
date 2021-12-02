@@ -36,7 +36,7 @@ html{
  
 .fundo {
     background-color:#f2e7c8;
-    
+  
 
 }
 .fundo-roo{
@@ -78,6 +78,18 @@ h3{
 
 }
 
+.form2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+
+    text-align:center ;
+    font-family: Roboto,ADLIBN;
+    font-size:small;
+    color: #4c0068;
+   
+    
+}
 
 
 body{
@@ -88,6 +100,7 @@ body{
     background-position: center ;
     background-attachment: fixed;
     background-size: cover;
+    
   }
 
 
