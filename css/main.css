@@ -78,15 +78,13 @@ h3{
 
 }
 
-.form2{
-    margin-left: auto;
-    margin-right: auto;
-    width: 6em;
-
-    text-align:center ;
-    font-family: Roboto,ADLIBN;
-    font-size:small;
-    color: #4c0068;
+.fundo2{
+    background-color:#ffa800;
+    text-align: left;
+    background: url("/img/wmariele.jpg")no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+    background-size: cover;
    
     
 }
