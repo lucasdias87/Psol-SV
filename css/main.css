@@ -6,7 +6,8 @@
     src: url(/ADLIBN/ADLIBN.TTF);
  }
 html{
-    background-color: #ffa800;
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px;
 }
 
  a:hover {
