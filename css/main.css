@@ -11,8 +11,8 @@ html{
 
  a:hover {
     background-color: #f2e7c8;
-
-  }
+    
+  } 
   
 
 .menu {
@@ -37,12 +37,13 @@ html{
 .fundo {
     background-color:#f2e7c8;
   
+   
+  
 
 }
 .fundo-roo{
     background-color: #4c0068;
    
-
 }
 
 
@@ -79,15 +80,18 @@ h3{
 }
 
 .fundo2{
-    background-color:#ffa800;
+    
     text-align: left;
     background: url("/img/wmariele.jpg")no-repeat;
+    
     background-position: center ;
-    background-attachment: fixed;
     background-size: cover;
+    
+    
    
     
 }
+
 
 
 body{
