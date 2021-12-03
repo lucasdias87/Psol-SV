@@ -7,12 +7,12 @@
  }
 html{
     scroll-behavior: smooth;
-    scroll-padding-top: 64px;
+    scroll-padding-top: 63px;
 }
  nav ul{
      display: flex;
      align-items: center;
-     gap: 2rem;
+     gap: 1rem;
  }
 
 
