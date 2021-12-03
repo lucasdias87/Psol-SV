@@ -8,6 +8,7 @@
 html{
     scroll-behavior: smooth;
    
+     
 }
  nav ul{
      display: flex;
@@ -34,7 +35,7 @@ html{
     background-color: transparent;
     
     transition-property: background-color,border-radius;;
-    transition-duration: 1.5s;
+    transition-duration: 2.7s;
    
     
 }
@@ -66,7 +67,7 @@ html{
 
 
 h1{
-    font-family: Roboto,ADLIBN;
+    font-family:ADLIBN,Lato,Roboto;
     font-size: medium;
     color: white;
     text-align: center;
@@ -137,8 +138,8 @@ body{
   
   /* Scroll bar handle */
   ::-webkit-scrollbar-thumb {
-    background: #ffa800;
-    background: linear-gradient(170deg, #4c0068 0%, #ffa800 73%, #f2e7c8 100%);
+    background: #f2e7c8;
+    background: linear-gradient(170deg, #4c0068 0%, #e9cb8e 73%, #f2e7c8 100%);
     border-radius: 5px;
   }
   
