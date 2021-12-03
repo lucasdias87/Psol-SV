@@ -7,7 +7,7 @@
  }
 html{
     scroll-behavior: smooth;
-    scroll-padding-top: 63px;
+    scroll-padding-top: 65px;
 }
  nav ul{
      display: flex;
