@@ -12,8 +12,10 @@ html{
 }
  nav ul{
      display: flex;
+     gap: 1rem;
      align-items: center;
-     gap: 0.3rem;
+     
+   
  }
  
 
@@ -29,11 +31,8 @@ html{
 .menu {
     font-family: Lato,ADLIBN;
     font-size:1.125rem;
-    text-align:center ;
-    padding-top: 0%;
     color: #f2e7c8;
-    background-color: transparent;
-    
+   
     transition-property: background-color,border-radius;;
     transition-duration: 2.7s;
    
@@ -55,16 +54,30 @@ html{
 }
 .fundo-roo{
     background-color: #4c0068;
+  
+    
+   
+}
+.fundo-roo2{
+    background-color: #4c0068;
+    opacity : 0.9 ;
+    
    
 }
 
 
 .img{
     width:35%;
+    display: flex;
+    gap: 1rem;
    
 
     
 }
+.carousel-inner img {
+    width: 75%;
+   
+  }
 
 
 h1{
@@ -117,11 +130,7 @@ body{
     
   }
 
-  .carousel-inner img {
-    width: 55%;
-    height: 50%;
-  }
-
+  
  .center {
    
     text-align:center ;
