@@ -54,7 +54,7 @@ html{
 }
 .fundo-roo{
     background-color: #4c0068;
-  
+    
     
    
 }
@@ -108,7 +108,7 @@ h3{
     
     text-align: left;
     background: url("/img/wmariele.jpg")no-repeat;
-    
+    background-attachment: fixed;
     background-position: center ;
     background-size: cover;
     
@@ -134,6 +134,8 @@ body{
  .center {
    
     text-align:center ;
+    justify-content: center;
+    align-items: center;
   
   }
   /*=====  End of Tipywriter effect  ======*/
@@ -153,7 +155,7 @@ body{
   /* Scroll bar handle */
   ::-webkit-scrollbar-thumb {
     background: #f2e7c8;
-    background: linear-gradient(170deg, #4c0068 0%, #e9cb8e 73%, #f2e7c8 100%);
+    background: linear-gradient(170deg, #4c0068 8%, #e9cb8e 73%, #f2e7c8 100%);
     border-radius: 5px;
   }
   
