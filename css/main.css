@@ -5,6 +5,22 @@
     font-family: ADLIBN,Lato,Roboto;
     src: url(/ADLIBN/ADLIBN.TTF);
  }
+
+@media screen and (max-width: 750px)  {
+    .menu{
+        font-family: Lato,ADLIBN;
+    font-size:1.125rem;
+    color: #f2e7c8;
+    width: 100%;
+    }
+    .carousel-inner img {
+        width: 80%;
+       
+      }
+    
+}
+
+
 html{
     scroll-behavior: smooth;
    
