@@ -6,7 +6,7 @@
     src: url(/ADLIBN/ADLIBN.TTF);
  }
 
-@media screen and (max-width: 750px)  {
+@media screen and (max-width: 360px)  {
     .menu{
         font-family: Lato,ADLIBN;
     font-size:1.125rem;
