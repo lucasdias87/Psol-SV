@@ -27,8 +27,32 @@ html{
 }
 
 
- 
+ input{
+     border-radius: 0.5rem;
+        border: none;
+       margin-top: 0%;
+        width: 60%;
+        height: auto;
+        padding: 0.5rem;
+        margin: 0.5rem;
+        font-size: 1.125rem;
+        font-family: Lato,ADLIBN;
+        
+
+ }
   
+   textarea{
+        border-radius: 0.5rem;
+        border: none;
+            
+            width: 60%;
+            height: auto;
+            padding: 0.5rem;
+            margin: 0.5rem;
+            font-size: 1.125rem;
+            font-family: Lato,ADLIBN;
+          
+   }
    
   
 
