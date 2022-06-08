@@ -2,7 +2,7 @@
 
 $nome = (!empty($_GET['nome'])) ? $_GET['nome'] : false;
 $email = (!empty($_GET['email'])) ? $_GET['email'] : false;
-$mensagem = (!empty($_GET['mensagem '])) ? $_GET['mensagem '] : false;
+$mensagem = (!empty($_GET['ASSUNTO '])) ? $_GET['ASSUNTO '] : false;
 
 if (!empty($_GET['enviar'])) {
 	
@@ -13,7 +13,7 @@ if (!empty($_GET['enviar'])) {
 	$email_mensagem = 'Mensagem via php' . "<br>";
 	$email_mensagem .= 'NOME: ' . $nome . "<br>";
 	$email_mensagem .= 'EMAIL: ' . $email . "<br>"; 
-	$email_mensagem .= 'MENSAGEM: ' . $mensagem . "<br>";
+	$email_mensagem .= 'ASSUNTO ' . $mensagem . "<br>";
 	$email_mensagem .= "<br><br><br>";
 
 	// headers de configuração 
@@ -28,6 +28,9 @@ if (!empty($_GET['enviar'])) {
 	}else{
 
 		echo "FALHA AO ENVIAR";
+		
+			alert("FALHA AO ENVIAR");
+		
 	}		
 
 ?>
