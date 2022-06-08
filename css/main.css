@@ -78,7 +78,13 @@ html{
     text-align:center ;
     color: #ffa800;
 }
- 
+ a:hover, button:hover, a:focus, button:focus {
+    outline: none;
+    text-decoration: none;
+   background:linear-gradient(to right,#ffa800,#f2e7c8);
+   text-transform: uppercase;
+   
+}
 .fundo {
     background-color:#f2e7c8;
   
@@ -170,10 +176,7 @@ details{
     color: white;
     text-align: center;
     padding-top: 2%;
-
 }
-
-
 body{
     
     background-color:#ffa800;
