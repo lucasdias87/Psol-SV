@@ -142,7 +142,24 @@ h1{
     text-align: center;
     
     padding-top: 20%;
+    
 
+}
+.titulo-principal{
+   
+    animation: text-animation 1.5s ease-in-out infinite alternate;
+}
+@keyframes text-animation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+   
+    100% {
+        transform: translateY(0);
+    }
 }
 h2{
     font-family: Roboto,ADLIBN;
