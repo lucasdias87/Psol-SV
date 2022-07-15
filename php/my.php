@@ -1,8 +1,8 @@
 <?php
 
-$nome = (!empty($_GET['nome'])) ? $_GET['nome'] : false;
-$email = (!empty($_GET['email'])) ? $_GET['email'] : false;
-$mensagem = (!empty($_GET['ASSUNTO '])) ? $_GET['ASSUNTO '] : false;
+$nome = (!empty($_POST['nome'])) ? $_POST['nome'] : false;
+$email = (!empty($_POST['email'])) ? $_POST['email'] : false;
+$mensagem = (!empty($_POST['ASSUNTO '])) ? $_POST['ASSUNTO '] : false;
 
 if (!empty($_GET['enviar'])) {
 	
