@@ -91,10 +91,21 @@ input:active{
     text-transform: uppercase;
     font-size: large;
 }
+input::before{
+   
+    background-color: #ffa800;
+    font-size: x-large;
+  
+}
 .iconesr{
     text-align:center ;
     color: #ffa800;
 }
+.iconers2{
+    text-align:center ;
+    color: white;
+}
+
  a:hover, button:hover, a:focus, button:focus {
     outline: none;
     text-decoration: none;
@@ -185,11 +196,20 @@ h3{
 }
 p{
     font-family: Roboto,ADLIBN;
-    font-size: small;
+    font-size: large;
     color: white;
     text-align: center;
     padding-top: 2%;
+    cursor: pointer;
+  
+   
 
+}
+p:hover{
+   background-color: #4c0068; 
+    text-decoration: none;
+    font-size: x-large;
+    
 }
 
 .fundo2{
@@ -209,11 +229,17 @@ p{
 
 details{
     font-family: Roboto,ADLIBN;
-    font-size: small;
+    font-size: large;
 
     color: white;
     text-align: center;
     padding-top: 2%;
+}
+details:hover{
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 1.5rem;
+    
 }
 body{
     
