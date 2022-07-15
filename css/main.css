@@ -62,7 +62,7 @@ html{
       justify-content: center;
   }
 
-input[type="submit"]{
+input{
    
     border: none;
     border-radius: 0.5rem;
@@ -75,7 +75,7 @@ input[type="submit"]{
     height: auto;
     cursor: pointer;
 }
-input[type="submit"]:hover{
+input:hover{
     background-color: #4c0068;
     color: white;
     outline: none;
@@ -133,7 +133,7 @@ input[type="submit"]:hover{
 
     
 }
-
+ 
 
 h1{
     font-family:ADLIBN,Lato,Roboto;
