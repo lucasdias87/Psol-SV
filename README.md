@@ -4,7 +4,7 @@
 ### [Acesse a pagina](https://psol-sv.netlify.app)
 
 - Site criado em HTML ,CSS  javascript e PHP
-- Com o objetivo de conter redes sociais, jornal em pdf para download e whatsapp e formulario de  contatos 
+- Com o objetivo de conter redes sociais, jornal em pdf para download, whatsapp e formulario de  contatos 
 
 - Buscando ser responsivo para se adaptar a demais dispositivos
 <br>
