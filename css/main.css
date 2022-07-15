@@ -81,8 +81,16 @@ input:hover{
     outline: none;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: large;
 }
-
+input:active{
+    background-color: #ffa800;
+    color: white;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: large;
+}
 .iconesr{
     text-align:center ;
     color: #ffa800;
