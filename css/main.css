@@ -152,8 +152,15 @@ input::before{
 
     
 }
- 
-
+ .img3{
+    width:100%;
+  
+    gap: 1rem;
+ }
+.img3:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
 h1{
     font-family:ADLIBN,Lato,Roboto;
     font-size: medium;
@@ -162,6 +169,7 @@ h1{
     
     padding-top: 20%;
     
+
 
 }
 .titulo-principal{
@@ -209,6 +217,12 @@ p:hover{
    background-color: #4c0068; 
     text-decoration: none;
     font-size: x-large;
+    transition: 800ms linear;
+    text-transform: uppercase;
+
+    
+   
+
     
 }
 
