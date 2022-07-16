@@ -25,8 +25,8 @@ if (!empty($_GET['enviar'])) {
 }
 	if ($envio) {
 		$mgm = "E-MAIL ENVIADO COM SUCESSO!";
-		echo " <meta http-equiv='refresh' content='10;URL=contato.php'>";
-		
+		echo " <meta http-equiv='refresh' content='10;URL=index.html'>";
+		alert("E-MAIL ENVIADO COM SUCESSO!");
 	}else{
 
 		echo "FALHA AO ENVIAR";
