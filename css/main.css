@@ -6,17 +6,14 @@
     src: url(/ADLIBN/ADLIBN.TTF);
  }
 
-@media screen and (max-width: 360px)  {
-    .menu{
-        font-family: Lato,ADLIBN;
-    font-size:1.125rem;
-    color: #f2e7c8;
-    width: 100%;
-    }
+ @media screen and (max-width: 750px) {
+   
    .img2{
     width: 100%;
       }
-    
+      ul{
+        display: none;
+     }
 }
 
 
@@ -25,6 +22,77 @@ html{
    
      
 }
+
+#menu{
+    color: #ffffff;
+    background-color: #fff467;
+    float:right;
+    width: 3rem;
+    margin-right: 1%;
+    border-radius: 15%;
+ }
+ 
+  #menu:hover{
+    background-color: #ffffff;
+    color: #fff467;
+   
+    cursor: pointer;
+  }
+
+  li{
+    display: inline-block;
+    
+     list-style: none;
+     gap: 10rem;
+     transition: .5s ease-in-out;
+     
+    
+  }
+  
+  
+ 
+ nav a:hover::after{
+    width: 100%;
+    background-color: #fff467;
+    text-decoration-color: #0f1523;
+ }
+ a{
+    text-decoration: none;
+    color: #fff467;
+    transition: .5s ease-in-out;
+    
+ }
+nav{
+    font-size: large;
+    background-color: #4c0068;
+    border: solid #20232a;
+    color: #fff467;
+    font-family: Lato,ADLIBN;
+   
+    letter-spacing: 15px;
+   
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position:  sticky; /* Este é o sufixo correto */
+    top: 0;
+}
+nav a::after{
+   content: '';
+   width: 0%;
+   height: 1px;
+  
+   position: absolute;
+   bottom:  0;
+   left: 0;
+  transition: 0.5s;
+
+}
+
+nav a:hover::after{
+   width: 100%;
+   background-color: #fff467;
+   text-decoration-color: #0f1523;
+}
+  
 
 
  input,textarea{
@@ -208,13 +276,12 @@ p:hover{
 details{
     font-family: Roboto,ADLIBN;
     font-size: large;
-
     color: white;
     text-align: center;
     padding-top: 2%;
 }
 details:hover{
-    background-color: transparent;
+   
     text-decoration: none;
     font-size: 1.5rem;
     
