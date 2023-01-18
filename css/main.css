@@ -5,15 +5,25 @@
     font-family: ADLIBN,Lato,Roboto;
     src: url(/ADLIBN/ADLIBN.TTF);
  }
-
- @media screen and (max-width: 750px) {
+ /* ul esta a mostra no desktop */
+ ul{
+    display: none;
+}
+ @media screen and (min-width: 750px) {
    
    .img2{
     width: 100%;
-      }
-      ul{
-        display: none;
+      
      }
+     
+     /* ul esta escondida no desktop */
+
+    ul{
+        display: block;
+    }
+    #menu{
+        display: none;
+    }
 }
 
 
@@ -24,6 +34,7 @@ html{
 }
 
 #menu{
+    
     color: #ffffff;
     background-color: #fff467;
     float:right;
@@ -49,7 +60,17 @@ html{
     
   }
   
-  
+  nav a::after{
+    content: '';
+    width: 0%;
+    height: 1px;
+   
+    position: absolute;
+    bottom:  0;
+    left: 0;
+   transition: 0.5s;
+ 
+ }
  
  nav a:hover::after{
     width: 100%;
@@ -68,7 +89,6 @@ nav{
     border: solid #20232a;
     color: #fff467;
     font-family: Lato,ADLIBN;
-   
     letter-spacing: 15px;
    
     position: -webkit-sticky; /* Necessário para funcionar no Safari */
